@@ -3,7 +3,7 @@
 
 int main(){
     for(;;){
-        int mem  = malloc(1000);
+        void *__cdecl mem  = malloc(1000);
         printf("Allocating memory: %d \n", mem);
     }
     return 0;
